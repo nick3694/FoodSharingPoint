@@ -1,0 +1,96 @@
+{% if current_user.is_authenticated %}
+    {% if current_user.volunteer %}
+        {% if flag_access_as_volunteer %}
+    {% extends "navbar_volunteer.html" %}
+                    {% else %}
+                {% extends "dashboard.html" %}
+            {% endif %}
+        {% else %}
+    {% extends "dashboard.html" %}
+                    {% endif %}
+{% else %}
+    {% extends "layout.html" %}
+{% endif %}
+
+{% block footer %}
+                      <div class=" col-md-12">
+                    <h2>The <strong class="white">team</strong></h2>
+                  </div>
+ <div class="footer">
+            <div class="container-fluid" >
+<div class="row" style="margin-left: 530px">
+  <div class="column">
+    <div class="card">
+      <img src="{{ url_for('static', filename='images/nicola.jpg') }}" alt="" style="width:100%" />
+      <div class="container">
+        <h1 style="font-size: 1em">  Nicola Menga</h1>
+        <p class="title">Msc Aerospace Engineer</p>
+        <p></p>
+        <p>s287975@studenti.polito.it</p>
+      </div>
+    </div>
+  </div>
+
+      <div class="column">
+    <div class="card">
+      <img src="{{ url_for('static', filename='images/mohammed.jpg') }}" alt="" style="width:100%" />
+      <div class="container">
+        <h1 style="font-size: 1em">  Mohammed Maataoui</h1>
+        <p class="title">Msc Aerospace Engineer</p>
+        <p></p>
+        <p>s289380@studenti.polito.it</p>
+      </div>
+    </div>
+  </div>
+      <div class="column">
+    <div class="card">
+      <img src="{{ url_for('static', filename='images/tommaso.jpg') }}" alt="" style="width:100%" />
+      <div class="container">
+        <h1 style="font-size: 1em">  Tommaso Caroli</h1>
+        <p class="title">Bsc Management Engineer</p>
+        <p></p>
+        <p>s282534@studenti.polito.it</p>
+      </div>
+    </div>
+  </div>
+     </div>
+
+
+
+    <div class="row" style="margin-left: 530px;margin-top:  10px;">
+          <div class="column">
+    <div class="card">
+      <img src="{{ url_for('static', filename='images/mariangela.jpeg') }}" alt="" style="width:100%" />
+      <div class="container">
+        <h1 style="font-size: 1em">  Mariangela Avantaggiato</h1>
+        <p class="title">Bsc Management Engineer</p>
+        <p></p>
+        <p>s287946@studenti.polito.it</p>
+      </div>
+    </div>
+  </div>
+      <div class="column">
+    <div class="card">
+      <img src="{{ url_for('static', filename='images/ali.jpg') }}" alt="" style="width:100%" />
+      <div class="container">
+        <h1 style="font-size: 1em">  Muhammad Ali</h1>
+        <p class="title">Bsc Mechanical Engineer</p>
+        <p></p>
+        <p>s289226@studenti.polito.it</p>
+      </div>
+    </div>
+  </div>
+      <div class="column">
+    <div class="card">
+      <img src="{{ url_for('static', filename='images/doa.jpg') }}" alt="" style="width:100%" />
+      <div class="container">
+        <h1 style="font-size: 1em">  Doaaelrhman Ali</h1>
+        <p class="title">Bsc Management Engineer</p>
+        <p></p>
+        <p>s289604@studenti.polito.it</p>
+      </div>
+    </div>
+  </div>
+     </div>
+
+{% endblock %}

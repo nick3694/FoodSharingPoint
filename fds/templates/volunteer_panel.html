@@ -1,0 +1,47 @@
+{% if current_user.is_authenticated %}
+    {% if current_user.volunteer %}
+        {% if flag_access_as_volunteer %}
+    {% extends "navbar_volunteer.html" %}
+                    {% else %}
+                {% extends "dashboard.html" %}
+            {% endif %}
+        {% else %}
+    {% extends "dashboard.html" %}
+                    {% endif %}
+{% else %}
+    {% extends "layout.html" %}
+{% endif %}
+
+{% block footer %}
+                      <div class=" col-md-12">
+                    <h2>Volunteer <strong class="white">page</strong></h2>
+                  </div>
+
+
+            {% with messages = get_flashed_messages() %}
+                            <ul class=flashes>
+                                {% for message in messages %}
+
+                                        <div class="alert alert-warning" role="alert">{{ message }}</div>
+                            {% endfor %}
+                            </ul>
+                        {% endwith %}
+
+
+
+    <div class="row">
+                                                <button type="button" class="btn btn-outline-light" style="width: 400px;margin-top: 5rem;margin-right: 200px;margin-left: 680px">
+      <a href='{{ url_for('addfood') }}'><p class="card-text" style="text-align: center"><h1>Add food</h1></p></a>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-light" style="width: 400px;margin-right: 200px;margin-left: 680px">
+      <a href='{{ url_for('removefood') }}'><p class="card-text" ><h1>Remove food</h1></p></a>
+                                                </button>
+
+
+                                                <button type="button" class="btn btn-outline-light" style="width: 400px;margin-right: 200px;margin-left: 680px">
+      <a href='{{ url_for('givebonus') }}'><p class="card-text" style="text-align: center"><h1>Manage Bonus and Vouchers</h1></p></a>
+                                                </button>
+</div>
+
+{% endblock %}

@@ -1,0 +1,33 @@
+{% if current_user.is_authenticated %}
+    {% if current_user.volunteer %}
+        {% if flag_access_as_volunteer %}
+    {% extends "navbar_volunteer.html" %}
+                    {% else %}
+                {% extends "dashboard.html" %}
+            {% endif %}
+        {% else %}
+    {% extends "dashboard.html" %}
+                    {% endif %}
+{% else %}
+    {% extends "layout.html" %}
+{% endif %}
+
+{% block footer %}
+                  <div class=" col-md-12">
+                    <h2>Become a <strong class="white">volunteer!</strong></h2>
+                  </div>
+    <div class="jumbotron jumbotron-fluid" style="margin-top:5rem">
+  <div class="container">
+
+    <p class="lead" style="text-align: justify;">Volunteers are the engine of Food Sharing Point platform. Be a volunteer for helping to distribute food in our local point!.</p>
+  </div>
+</div>
+    <button type="button" class="btn btn-outline-danger" style=" margin-right: 100px;margin-left: 900px">
+      <a href='{{ url_for('volunteerequest') }}'><p style="text-align: center"><h1>Proceed to become a volunteer</h1></p></a>
+</button>
+
+
+
+
+
+{% endblock %}
