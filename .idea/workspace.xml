@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/fds/templates/login.html" description="    &lt;!-- footer --&gt;&#10;    &lt;fooetr&gt;&#10;        &lt;div clas..." line="86" />
-    <bookmark url="file://$PROJECT_DIR$/fds/templates/give_bonus.html" description="            {% if success  %}&#10;{% with messages = g..." line="19" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="e70effdb-0bfb-4e15-80f4-01def8c61dc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/data.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/fds/data.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/database_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/fds/database_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/fds/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/fds/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/fds/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/templates/add_food.html" beforeDir="false" afterPath="$PROJECT_DIR$/fds/templates/add_food.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/fds/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fds/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/fds/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/fds/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/templates/navbar_volunteer.html" beforeDir="false" afterPath="$PROJECT_DIR$/fds/templates/navbar_volunteer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/templates/remove_food.html" beforeDir="false" afterPath="$PROJECT_DIR$/fds/templates/remove_food.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/templates/site.html" beforeDir="false" afterPath="$PROJECT_DIR$/fds/templates/site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/templates/volunteer_panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/fds/templates/volunteer_panel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fds/templates/volunteerrequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/fds/templates/volunteerrequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,13 +29,166 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fds/routes.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="64" column="91" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="91" />
+            <state relative-caret-position="136">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding>
-                <element signature="e#0#77#0" expanded="true" />
+                <element signature="e#0#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsp/routes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="420" column="16" selection-start-line="420" selection-start-column="16" selection-end-line="420" selection-end-column="16" />
+              <folding>
+                <element signature="e#639#706#0" />
+                <element signature="e#763#827#0" />
+                <element signature="e#870#907#0" />
+                <element signature="e#948#1169#0" />
+                <element signature="e#1208#1424#0" />
+                <element signature="e#1492#3166#0" />
+                <element signature="e#1544#2304#0" />
+                <element signature="e#1586#2212#0" />
+                <element signature="e#2323#3166#0" />
+                <element signature="e#2365#3073#0" />
+                <element signature="e#3223#3439#0" />
+                <element signature="e#3488#3610#0" />
+                <element signature="e#3665#3889#0" />
+                <element signature="e#3944#4077#0" />
+                <element signature="e#4173#5488#0" />
+                <element signature="e#4284#5402#0" />
+                <element signature="e#4405#4903#0" />
+                <element signature="e#4565#4772#0" />
+                <element signature="e#4807#4903#0" />
+                <element signature="e#4930#5402#0" />
+                <element signature="e#5064#5271#0" />
+                <element signature="e#5306#5402#0" />
+                <element signature="e#5556#5607#0" />
+                <element signature="e#5677#5728#0" />
+                <element signature="e#5875#6813#0" />
+                <element signature="e#5961#6723#0" />
+                <element signature="e#6101#6285#0" />
+                <element signature="e#6159#6285#0" />
+                <element signature="e#6386#6508#0" />
+                <element signature="e#6989#7595#0" />
+                <element signature="e#7074#7179#0" />
+                <element signature="e#7253#7507#0" />
+                <element signature="e#7639#7897#0" />
+                <element signature="e#7966#8346#0" />
+                <element signature="e#8420#9579#0" />
+                <element signature="e#8603#9374#0" />
+                <element signature="e#8654#8849#0" />
+                <element signature="e#8876#9374#0" />
+                <element signature="e#9005#9053#0" />
+                <element signature="e#9650#10061#0" />
+                <element signature="e#10223#12803#0" />
+                <element signature="e#10986#12576#0" />
+                <element signature="e#11127#12489#0" />
+                <element signature="e#11179#12136#0" />
+                <element signature="e#11234#12085#0" />
+                <element signature="e#11439#11685#0" />
+                <element signature="e#11736#12085#0" />
+                <element signature="e#12192#12283#0" />
+                <element signature="e#12886#14662#0" />
+                <element signature="e#13047#13143#0" />
+                <element signature="e#13184#14486#0" />
+                <element signature="e#13445#13812#0" />
+                <element signature="e#13706#13812#0" />
+                <element signature="e#13827#13946#0" />
+                <element signature="e#14058#14213#0" />
+                <element signature="e#14763#16355#0" />
+                <element signature="e#14928#16181#0" />
+                <element signature="e#15203#15918#0" />
+                <element signature="e#15250#15918#0" />
+                <element signature="e#15365#15464#0" />
+                <element signature="e#16202#16355#0" />
+                <element signature="e#16436#16675#0" />
+                <element signature="e#16774#17012#0" />
+                <element signature="e#17097#18094#0" />
+                <element signature="e#17336#17915#0" />
+                <element signature="e#17512#17797#0" />
+                <element signature="e#17824#17915#0" />
+                <element signature="e#18185#19408#0" />
+                <element signature="e#18419#19233#0" />
+                <element signature="e#18690#19086#0" />
+                <element signature="e#18930#19086#0" />
+                <element signature="e#19113#19233#0" />
+                <element signature="e#19497#22349#0" />
+                <element signature="e#19694#22180#0" />
+                <element signature="e#19902#22099#0" />
+                <element signature="e#19940#20618#0" />
+                <element signature="e#20701#21988#0" />
+                <element signature="e#20767#21861#0" />
+                <element signature="e#21194#21297#0" />
+                <element signature="e#22126#22180#0" />
+                <element signature="e#22440#23032#0" />
+                <element signature="e#22694#22824#0" />
+                <element signature="e#23121#23685#0" />
+                <element signature="e#23400#23499#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsp/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#355#1293#0" />
+                <element signature="e#951#1095#0" />
+                <element signature="e#1142#1293#0" />
+                <element signature="e#1327#1497#0" />
+                <element signature="e#1541#1905#0" />
+                <element signature="e#1732#1905#0" />
+                <element signature="e#1948#2200#0" />
+                <element signature="e#2235#2499#0" />
+                <element signature="e#2541#2682#0" />
+                <element signature="e#2723#2831#0" />
+                <element signature="e#2867#2903#0" />
+                <element signature="e#2935#3162#0" />
+                <element signature="e#3197#3427#0" />
+                <element signature="e#3465#4026#0" />
+                <element signature="e#3876#4026#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fsp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
+              <folding>
+                <element signature="e#199#234#0" />
+                <element signature="e#275#1299#0" />
+                <element signature="e#942#1056#0" />
+                <element signature="e#1119#1299#0" />
+                <element signature="e#1330#1570#0" />
+                <element signature="e#1607#1920#0" />
+                <element signature="e#1950#2278#0" />
+                <element signature="e#2307#2616#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fsp/database_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#142#6024#0" />
               </folding>
             </state>
           </provider>
@@ -64,43 +200,43 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logout</find>
-      <find>add</find>
-      <find>items</find>
-      <find>Please choose</find>
-      <find>please</find>
-      <find>2</find>
-      <find>button_user</find>
-      <find>Become</find>
-      <find>S2</find>
-      <find>Access</find>
-      <find>access</find>
-      <find>points</find>
-      <find>Leave us</find>
-      <find>Leave</find>
-      <find>Home</find>
-      <find>footer</find>
-      <find>blo</find>
-      <find>Please</find>
-      <find>title</find>
-      <find>bonus</find>
-      <find>get</find>
-      <find>favicon.ico</find>
-      <find>powers</find>
-      <find>Sign</find>
-      <find>Volu</find>
       <find>cart</find>
       <find>load_user</find>
       <find>About</find>
       <find>current</find>
       <find>phone</find>
+      <find>CompleteOrderForm</find>
+      <find>m</find>
+      <find>ConfirmOrderForm</find>
+      <find>GiveBonus</find>
+      <find>Torin</find>
+      <find>datatime</find>
+      <find>datetime.date</find>
+      <find>datetime.date()</find>
+      <find>datetime</find>
+      <find>today</find>
+      <find>Orders</find>
+      <find>Order</find>
+      <find>Bonus</find>
+      <find>Home</find>
+      <find>query</find>
+      <find>user_id</find>
+      <find>print</find>
+      <find>script</find>
+      <find>style</find>
+      <find>js</find>
+      <find>Thank</find>
+      <find>vouchers</find>
+      <find>point</find>
+      <find>data</find>
+      <find>globbal data</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,23 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/register.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/signup.html" />
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/models.py" />
-        <option value="$PROJECT_DIR$/venv/run.py" />
-        <option value="$PROJECT_DIR$/fds/app.py" />
-        <option value="$PROJECT_DIR$/fds/templates/site" />
-        <option value="$PROJECT_DIR$/fds/templates/registration_email.html" />
-        <option value="$PROJECT_DIR$/fds/templates/editprofile.html" />
-        <option value="$PROJECT_DIR$/fds/templates/reset_token.html" />
-        <option value="$PROJECT_DIR$/fds/templates/reset_request.html" />
-        <option value="$PROJECT_DIR$/fds/templates/navbar.html" />
-        <option value="$PROJECT_DIR$/fds/templates/cart.html" />
-        <option value="$PROJECT_DIR$/fds/templates/FoodAvailable.html" />
-        <option value="$PROJECT_DIR$/fds/templates/completeorder.html" />
-        <option value="$PROJECT_DIR$/fds/templates/ordercompleted.html" />
         <option value="$PROJECT_DIR$/fds/templates/emptycart.html" />
         <option value="$PROJECT_DIR$/fds/templates/your_orders.html" />
         <option value="$PROJECT_DIR$/fds/templates/your_bonus.html" />
@@ -142,7 +261,6 @@
         <option value="$PROJECT_DIR$/fds/__init__.py" />
         <option value="$PROJECT_DIR$/fds/wsgi.py" />
         <option value="$PROJECT_DIR$/fds/Procfile" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/fds/templates/login.html" />
         <option value="$PROJECT_DIR$/fds/templates/no_dashboard_volunteer.html" />
         <option value="$PROJECT_DIR$/fds/templates/about.html" />
@@ -160,12 +278,30 @@
         <option value="$PROJECT_DIR$/fds/templates/navbar_volunteer.html" />
         <option value="$PROJECT_DIR$/fds/templates/site.html" />
         <option value="$PROJECT_DIR$/fds/models.py" />
+        <option value="$PROJECT_DIR$/fsp/__init__.py" />
+        <option value="$PROJECT_DIR$/fsp/templates/signup.html" />
+        <option value="$PROJECT_DIR$/fsp/templates/layout.html" />
+        <option value="$PROJECT_DIR$/fsp/templates/contactus.html" />
+        <option value="$PROJECT_DIR$/fsp/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/fsp/templates/index.html" />
+        <option value="$PROJECT_DIR$/fsp/templates/site.html" />
+        <option value="$PROJECT_DIR$/fsp/templates/navbar_volunteer.html" />
+        <option value="$PROJECT_DIR$/fsp/templates/add_food.html" />
+        <option value="$PROJECT_DIR$/fsp/templates/remove_food.html" />
+        <option value="$PROJECT_DIR$/fsp/templates/give_bonus.html" />
+        <option value="$PROJECT_DIR$/MANIFEST.in" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/fsp/forms.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/fsp/database_info.py" />
+        <option value="$PROJECT_DIR$/fsp/routes.py" />
+        <option value="$PROJECT_DIR$/fsp/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1102" />
+    <option name="width" value="825" />
     <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -186,22 +322,7 @@
             <path>
               <item name="FoodSharingPoint_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="FoodSharingPoint_project" type="462c0819:PsiDirectoryNode" />
-              <item name="fds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FoodSharingPoint_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FoodSharingPoint_project" type="462c0819:PsiDirectoryNode" />
-              <item name="fds" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FoodSharingPoint_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="FoodSharingPoint_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 2.7 (FoodSharingPoint_project) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="fsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,6 +335,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/fds/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -425,11 +547,34 @@
       <workItem from="1609664816891" duration="1800000" />
       <workItem from="1609685752596" duration="4988000" />
       <workItem from="1609691207766" duration="1847000" />
+      <workItem from="1609695242293" duration="10079000" />
+      <workItem from="1609757615117" duration="3346000" />
+      <workItem from="1609770467570" duration="5290000" />
+      <workItem from="1609804166564" duration="288000" />
+      <workItem from="1610032767134" duration="10860000" />
+      <workItem from="1610051792267" duration="327000" />
+      <workItem from="1610059759451" duration="4949000" />
+      <workItem from="1610064829893" duration="58000" />
+      <workItem from="1610065182832" duration="967000" />
+      <workItem from="1610066189231" duration="4522000" />
+      <workItem from="1610226062120" duration="4271000" />
+      <workItem from="1610284516568" duration="595000" />
+      <workItem from="1610289166161" duration="86000" />
+      <workItem from="1610289442938" duration="6014000" />
+      <workItem from="1610409092173" duration="2218000" />
     </task>
+    <task id="LOCAL-00001" summary="Alpha">
+      <created>1609695520557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609695520557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343951000" />
+    <option name="totallyTimeSpent" value="397821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,24 +586,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="831" y="0" width="852" height="909" extended-state="1" />
+    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23484848" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4764706" visible="true" weight="0.16922134" />
+      <window_info id="Structure" order="1" sideWeight="0.52250487" side_tool="true" weight="0.41666666" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49873737" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7449495" weight="0.43685567" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49873737" weight="0.3298292" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7440101" weight="0.43101183" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49969345" weight="0.39923468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4949495" weight="0.32860824" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4949495" weight="0.3285151" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.70454544" weight="0.32860824" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2550505" side_tool="true" visible="true" weight="0.43685567" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.8050276" weight="0.32270408" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8344574" weight="0.32142857" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298292" />
+      <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.70454544" weight="0.3285151" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2559899" side_tool="true" weight="0.43629342" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.8050276" weight="0.3193167" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8344574" weight="0.32063076" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49936947" weight="0.32947233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -467,31 +612,36 @@
       <window_info anchor="right" id="Database" order="4" weight="0.018393623" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14408338" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2408575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39795917" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39923468" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49873737" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7440101" visible="true" weight="0.43629342" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49969345" weight="0.39923468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4949495" weight="0.32860824" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.70454544" weight="0.32860824" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2559899" side_tool="true" visible="true" weight="0.43629342" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.8050276" weight="0.32270408" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8344574" weight="0.32142857" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49936947" weight="0.32947233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.018393623" />
+      <window_info anchor="right" id="Database" order="4" weight="0.018393623" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alpha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alpha" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,154 +659,13 @@
     <SUITE FILE_PATH="coverage/FoodSharingPoint_project$Flask__fds_routes_py_.coverage" NAME="Flask (fds/routes.py) Coverage Results" MODIFIED="1607973639956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/FoodSharingPoint_project$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1609629734111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fds" />
     <SUITE FILE_PATH="coverage/FoodSharingPoint_project$Flask__fds___init___py_.coverage" NAME="Flask (fds/__init__.py) Coverage Results" MODIFIED="1607970835858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/FoodSharingPoint_project$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1609695428783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FoodSharingPoint_project$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1610411445713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FoodSharingPoint_project$run.coverage" NAME="run Coverage Results" MODIFIED="1607970397946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/FoodSharingPoint_project$FoodSharingPoint_project.coverage" NAME="FoodSharingPoint_project Coverage Results" MODIFIED="1608157333921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sqlalchemy/orm/mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="3294" selection-start-line="3294" selection-end-line="3294" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="2446" selection-start-line="2446" selection-end-line="2446" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/smtplib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="622" selection-start-line="622" selection-end-line="622" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/site" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/werkzeug/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8075">
-          <caret line="489" column="4" selection-start-line="489" selection-start-column="4" selection-end-line="489" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/navbar.html" />
-    <entry file="file://$PROJECT_DIR$/fds/templates/cart.html" />
-    <entry file="file://$PROJECT_DIR$/fds/templates/completeorder.html" />
-    <entry file="file://$PROJECT_DIR$/fds/templates/reset_token.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/registration_email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/emptycart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/editprofile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/reset_request.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/your_bonus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/base.html" />
-    <entry file="file://$PROJECT_DIR$/fds/templates/yourprofile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="83" lean-forward="true" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
-          <folding>
-            <element signature="e#637#694#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/ordercompleted.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/give_bonus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/foodavailable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="75" column="93" selection-start-line="75" selection-start-column="93" selection-end-line="75" selection-end-column="93" />
-          <folding>
-            <element signature="e#1584#1610#0#HTML" expanded="true" />
-            <element signature="e#1655#1716#0#HTML" expanded="true" />
-            <element signature="e#1895#1976#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/shoppingcart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="e#426#471#0#HTML" expanded="true" />
-            <element signature="e#785#857#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fds/templates/foodavailable.html" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/shoppingcart.html" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/flask/helpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -664,20 +673,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/contactus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fds/templates/main.html" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/contactus.html" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/flask_pyngrok/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
@@ -685,174 +682,301 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/your_orders.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fds/templates/your_orders.html" />
     <entry file="file://$PROJECT_DIR$/fds/wsgi.py" />
-    <entry file="file://$PROJECT_DIR$/fds/Procfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="63" column="75" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fds/Procfile" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/login.html" />
     <entry file="file://$PROJECT_DIR$/fds/templates/no_dashboard_volunteer.html" />
-    <entry file="file://$PROJECT_DIR$/fds/templates/gocart.html">
+    <entry file="file://$PROJECT_DIR$/fds/templates/gocart.html" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/volunteerrequest.html" />
+    <entry file="file://$PROJECT_DIR$/fds/database_info.py" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/volunteerpage.html" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/volunteer_panel.html" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/add_food.html" />
+    <entry file="file://$PROJECT_DIR$/fds/models.py" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/remove_food.html" />
+    <entry file="file://$PROJECT_DIR$/fds/forms.py" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/about.html" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/navbar_volunteer.html" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/site.html" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/layout.html" />
+    <entry file="file://$PROJECT_DIR$/fds/templates/dashboard.html" />
+    <entry file="file://$PROJECT_DIR$/fds/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/fds/routes.py" />
+    <entry file="file://$PROJECT_DIR$/fsp/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="e#434#498#0#HTML" expanded="true" />
-            <element signature="e#1031#1092#0#HTML" expanded="true" />
-            <element signature="e#1240#1321#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="935">
+          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/volunteerrequest.html">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/jinja2/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7072">
+          <caret line="470" selection-start-line="470" selection-end-line="470" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsp/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsp/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsp/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsp/templates/contactus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fds/database_info.py">
+    <entry file="file://$PROJECT_DIR$/fsp/templates/foodavailable.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsp/templates/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3332">
+          <caret line="196" column="199" selection-start-line="196" selection-start-column="199" selection-end-line="196" selection-end-column="199" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/fsp/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="6528">
+          <caret line="384" column="199" selection-start-line="384" selection-start-column="199" selection-end-line="384" selection-end-column="199" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/volunteerpage.html">
+    <entry file="file://$PROJECT_DIR$/fsp/templates/site.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="7021">
+          <caret line="413" column="199" selection-start-line="413" selection-start-column="199" selection-end-line="413" selection-end-column="199" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/volunteer_panel.html">
+    <entry file="file://$PROJECT_DIR$/fsp/templates/navbar_volunteer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        <state relative-caret-position="3179">
+          <caret line="187" column="199" selection-start-line="187" selection-start-column="199" selection-end-line="187" selection-end-column="199" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/add_food.html">
+    <entry file="file://$PROJECT_DIR$/fsp/templates/remove_food.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="43" selection-start-line="43" selection-end-line="48" selection-end-column="7" />
+        <state relative-caret-position="128">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fds/models.py">
+    <entry file="file://$PROJECT_DIR$/fsp/templates/add_food.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="362">
+          <caret line="51" column="52" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/remove_food.html">
+    <entry file="file://$PROJECT_DIR$/fsp/templates/give_bonus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        <state relative-caret-position="220">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fds/forms.py">
+    <entry file="file://$PROJECT_DIR$/fsp/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="58" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/navbar_volunteer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="60" selection-start-line="128" selection-start-column="60" selection-end-line="128" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="159" column="70" selection-start-line="159" selection-start-column="65" selection-end-line="159" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fds/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fds/routes.py">
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="64" column="91" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="91" />
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#0#77#0" expanded="true" />
+            <element signature="e#194#218#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#355#1293#0" />
+            <element signature="e#951#1095#0" />
+            <element signature="e#1142#1293#0" />
+            <element signature="e#1327#1497#0" />
+            <element signature="e#1541#1905#0" />
+            <element signature="e#1732#1905#0" />
+            <element signature="e#1948#2200#0" />
+            <element signature="e#2235#2499#0" />
+            <element signature="e#2541#2682#0" />
+            <element signature="e#2723#2831#0" />
+            <element signature="e#2867#2903#0" />
+            <element signature="e#2935#3162#0" />
+            <element signature="e#3197#3427#0" />
+            <element signature="e#3465#4026#0" />
+            <element signature="e#3876#4026#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsp/database_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#142#6024#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsp/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="420" column="16" selection-start-line="420" selection-start-column="16" selection-end-line="420" selection-end-column="16" />
+          <folding>
+            <element signature="e#639#706#0" />
+            <element signature="e#763#827#0" />
+            <element signature="e#870#907#0" />
+            <element signature="e#948#1169#0" />
+            <element signature="e#1208#1424#0" />
+            <element signature="e#1492#3166#0" />
+            <element signature="e#1544#2304#0" />
+            <element signature="e#1586#2212#0" />
+            <element signature="e#2323#3166#0" />
+            <element signature="e#2365#3073#0" />
+            <element signature="e#3223#3439#0" />
+            <element signature="e#3488#3610#0" />
+            <element signature="e#3665#3889#0" />
+            <element signature="e#3944#4077#0" />
+            <element signature="e#4173#5488#0" />
+            <element signature="e#4284#5402#0" />
+            <element signature="e#4405#4903#0" />
+            <element signature="e#4565#4772#0" />
+            <element signature="e#4807#4903#0" />
+            <element signature="e#4930#5402#0" />
+            <element signature="e#5064#5271#0" />
+            <element signature="e#5306#5402#0" />
+            <element signature="e#5556#5607#0" />
+            <element signature="e#5677#5728#0" />
+            <element signature="e#5875#6813#0" />
+            <element signature="e#5961#6723#0" />
+            <element signature="e#6101#6285#0" />
+            <element signature="e#6159#6285#0" />
+            <element signature="e#6386#6508#0" />
+            <element signature="e#6989#7595#0" />
+            <element signature="e#7074#7179#0" />
+            <element signature="e#7253#7507#0" />
+            <element signature="e#7639#7897#0" />
+            <element signature="e#7966#8346#0" />
+            <element signature="e#8420#9579#0" />
+            <element signature="e#8603#9374#0" />
+            <element signature="e#8654#8849#0" />
+            <element signature="e#8876#9374#0" />
+            <element signature="e#9005#9053#0" />
+            <element signature="e#9650#10061#0" />
+            <element signature="e#10223#12803#0" />
+            <element signature="e#10986#12576#0" />
+            <element signature="e#11127#12489#0" />
+            <element signature="e#11179#12136#0" />
+            <element signature="e#11234#12085#0" />
+            <element signature="e#11439#11685#0" />
+            <element signature="e#11736#12085#0" />
+            <element signature="e#12192#12283#0" />
+            <element signature="e#12886#14662#0" />
+            <element signature="e#13047#13143#0" />
+            <element signature="e#13184#14486#0" />
+            <element signature="e#13445#13812#0" />
+            <element signature="e#13706#13812#0" />
+            <element signature="e#13827#13946#0" />
+            <element signature="e#14058#14213#0" />
+            <element signature="e#14763#16355#0" />
+            <element signature="e#14928#16181#0" />
+            <element signature="e#15203#15918#0" />
+            <element signature="e#15250#15918#0" />
+            <element signature="e#15365#15464#0" />
+            <element signature="e#16202#16355#0" />
+            <element signature="e#16436#16675#0" />
+            <element signature="e#16774#17012#0" />
+            <element signature="e#17097#18094#0" />
+            <element signature="e#17336#17915#0" />
+            <element signature="e#17512#17797#0" />
+            <element signature="e#17824#17915#0" />
+            <element signature="e#18185#19408#0" />
+            <element signature="e#18419#19233#0" />
+            <element signature="e#18690#19086#0" />
+            <element signature="e#18930#19086#0" />
+            <element signature="e#19113#19233#0" />
+            <element signature="e#19497#22349#0" />
+            <element signature="e#19694#22180#0" />
+            <element signature="e#19902#22099#0" />
+            <element signature="e#19940#20618#0" />
+            <element signature="e#20701#21988#0" />
+            <element signature="e#20767#21861#0" />
+            <element signature="e#21194#21297#0" />
+            <element signature="e#22126#22180#0" />
+            <element signature="e#22440#23032#0" />
+            <element signature="e#22694#22824#0" />
+            <element signature="e#23121#23685#0" />
+            <element signature="e#23400#23499#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
+          <folding>
+            <element signature="e#199#234#0" />
+            <element signature="e#275#1299#0" />
+            <element signature="e#942#1056#0" />
+            <element signature="e#1119#1299#0" />
+            <element signature="e#1330#1570#0" />
+            <element signature="e#1607#1920#0" />
+            <element signature="e#1950#2278#0" />
+            <element signature="e#2307#2616#0" />
           </folding>
         </state>
       </provider>
