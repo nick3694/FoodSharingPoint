@@ -1,0 +1,68 @@
+{% if current_user.is_authenticated %}
+    {% if current_user.volunteer %}
+        {% if flag_access_as_volunteer %}
+    {% extends "navbar_volunteer.html" %}
+                    {% else %}
+                {% extends "dashboard.html" %}
+            {% endif %}
+        {% else %}
+    {% extends "dashboard.html" %}
+                    {% endif %}
+{% else %}
+    {% extends "layout.html" %}
+{% endif %}
+
+
+
+{% block footer %}
+
+<form method="POST">
+<table class="table">
+
+
+
+{% with messages = get_flashed_messages() %}
+                            <ul class=flashes>
+                            {% if flag_addfood %}
+                                {% for message in messages %}
+                                        <div class="alert alert-success" role="alert">{{ message }}</div>
+
+                                {% endfor %}
+                            {% else %}
+                                                            {% for message in messages %}
+                                        <div class="alert alert-warning" role="alert">{{ message }}</div>
+
+                                {% endfor %}
+                            {% endif %}
+                            </ul>
+                        {% endwith %}
+
+
+
+
+
+      <tr>
+    <th>Food Name</th>
+          <th>Food Sharing Point</th>
+    <th>Expiration Data</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>{{ form.type }}</td>
+    <td>  <select class="custom-select" name="Point">
+        {%  for point in points %}
+      <option  value="{{ point }}">{{ point }}</option>
+        {% endfor %}
+
+
+</select></td>
+    <td>{{ form.exp_data }}</td>
+          <td>{{ form.quantity }}</td>
+  </tr>
+
+    </table>
+            {{ form.submit(class='btn btn-primary') }}
+            {{ form.hidden_tag() }}
+</form>
+
+{% endblock %}

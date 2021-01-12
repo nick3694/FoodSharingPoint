@@ -1,0 +1,19 @@
+{% if current_user.is_authenticated %}
+    {% if current_user.volunteer %}
+        {% if flag_access_as_volunteer %}
+    {% extends "navbar_volunteer.html" %}
+                    {% else %}
+                {% extends "dashboard.html" %}
+            {% endif %}
+        {% else %}
+    {% extends "dashboard.html" %}
+                    {% endif %}
+{% else %}
+    {% extends "layout.html" %}
+{% endif %}
+
+{% block footer %}
+
+
+
+{% endblock %}

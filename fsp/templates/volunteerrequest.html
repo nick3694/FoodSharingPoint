@@ -1,0 +1,56 @@
+{% if current_user.is_authenticated %}
+    {% if current_user.volunteer %}
+        {% if flag_access_as_volunteer %}
+    {% extends "navbar_volunteer.html" %}
+                    {% else %}
+                {% extends "dashboard.html" %}
+            {% endif %}
+        {% else %}
+    {% extends "dashboard.html" %}
+                    {% endif %}
+{% else %}
+    {% extends "layout.html" %}
+{% endif %}
+
+{% block footer %}
+                  <div class=" col-md-12">
+                    <h2>Become a <strong class="white">volunteer!</strong></h2>
+                  </div>
+
+
+    <form method="post" style="margin-top:3rem;width: 400px">
+ {% if succes %}
+
+    {% with messages = get_flashed_messages() %}
+                            <ul class=flashes>
+                                {% for message in messages %}
+
+                                        <div class="alert alert-success" role="alert">{{ message }}</div>
+                            {% endfor %}
+                            </ul>
+                        {% endwith %}
+    {% endif %}
+
+        <h3 style="margin-left: 2rem">Choose a point near to you:</h3>
+
+<div class="col-sm-3" style="margin-top:2rem;margin-lef: 2rem;width: 400px">
+
+<select style="width: 400px"  class="form-control inputstl" id="expertise" name="Point" multiple>
+        {%  for point,adress in supermarkets %}
+      <option style="width: 400px" value="{{ point }}">{{ point }} ({{ adress }})</option>
+        {% endfor %}
+
+
+</select>
+
+</div>
+    <div style="margin-top: 5rem;margin-bottom: 1rem;margin-left: 2rem;margin-right: 1rem">
+            {{ form.submit(class='btn btn-primary') }}
+    </div>
+            {{ form.hidden_tag() }}
+    </form>
+                        <h6 style="margin-left: 2rem">If there is no longer availability at the selected point to provide volunteering, we could propose another Food Sharing Point, thank you!
+                        </h6>
+
+
+{% endblock %}

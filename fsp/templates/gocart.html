@@ -1,0 +1,52 @@
+{% if current_user.is_authenticated %}
+    {% if current_user.volunteer %}
+        {% if flag_access_as_volunteer %}
+    {% extends "navbar_volunteer.html" %}
+                    {% else %}
+                {% extends "dashboard.html" %}
+            {% endif %}
+        {% else %}
+    {% extends "dashboard.html" %}
+                    {% endif %}
+{% else %}
+    {% extends "layout.html" %}
+{% endif %}
+
+{% block footer %}
+        <h4 style="margin-bottom: 3rem;margin-left: 2rem;margin-right: 1rem">Check your food list and complete your booking:</h4>
+
+
+
+
+        <table class="table">
+<form method="post" action="{{ url_for('gocart')}} ">
+      <tr>
+          <th>Food</th>
+              <th>Quantity selected</th>
+
+  </tr>
+
+     {% for foodbooked,quantitybooked in cart %}
+
+        <tr>
+                <td>{{ foodbooked }}</td>
+        <td>{{ quantitybooked }}</td>
+        </tr>
+            {% endfor %}
+
+    </table>
+
+
+
+
+
+                            <div style="margin-right: 5rem">
+                                <label><h6 style="margin-top: 3rem;margin-left: 2rem;margin-right: 1rem">Confirm pickup date:           </h6></label>
+                                {{ form.order_date }}
+                                </div>
+    <div style="margin-top: 5rem;margin-bottom: 1rem;margin-left: 2rem;margin-right: 1rem">
+    {{ form.submit(class='btn btn-primary' ,value="Confirm order" )}}
+    </div>
+    {{ form.hidden_tag() }}
+    </form>
+{% endblock %}

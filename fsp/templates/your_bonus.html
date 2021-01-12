@@ -1,0 +1,41 @@
+{% if current_user.is_authenticated %}
+    {% if current_user.volunteer %}
+        {% if flag_access_as_volunteer %}
+    {% extends "navbar_volunteer.html" %}
+                    {% else %}
+                {% extends "dashboard.html" %}
+            {% endif %}
+        {% else %}
+    {% extends "dashboard.html" %}
+                    {% endif %}
+{% else %}
+    {% extends "layout.html" %}
+{% endif %}
+
+
+
+{% block footer %}
+
+<table class="table">
+
+
+
+
+
+
+      <tr>
+    <th>Date</th>
+          <th>Bonus</th>
+    <th>Number of vouchers</th>
+
+  </tr>
+
+     {% for date,bon,vouch in bonusz %}
+        <tr>                  <td>{{ date }}</td>
+        <td>{{ bon }}</td>
+                 <td>{{ vouch }}</td></tr>
+            {% endfor %}
+
+    </table>
+
+{% endblock %}
