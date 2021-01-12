@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e70effdb-0bfb-4e15-80f4-01def8c61dc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fsp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fsp/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="e70effdb-0bfb-4e15-80f4-01def8c61dc8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fsp/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="134" selection-start-line="12" selection-start-column="134" selection-end-line="12" selection-end-column="134" />
+            <state relative-caret-position="187">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -193,10 +190,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1938" />
-    <option name="height" value="1051" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1939" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -458,7 +455,7 @@
       <workItem from="1610409092173" duration="2218000" />
       <workItem from="1610411569542" duration="408000" />
       <workItem from="1610412045911" duration="41000" />
-      <workItem from="1610412101697" duration="555000" />
+      <workItem from="1610412101697" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="Alpha">
       <created>1609695520557</created>
@@ -485,7 +482,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="398825000" />
+    <option name="totallyTimeSpent" value="398930000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -498,9 +495,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4764706" visible="true" weight="0.07173513" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4764706" visible="true" weight="0.07173513" />
       <window_info id="Structure" order="1" sideWeight="0.52250487" side_tool="true" weight="0.41666666" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -514,7 +510,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298292" />
       <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.70454544" weight="0.3285151" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2559899" side_tool="true" weight="0.43629342" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.8050276" visible="true" weight="0.3193167" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.8050276" visible="true" weight="0.3193167" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8344574" weight="0.32063076" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49936947" weight="0.32947233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -763,8 +759,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fsp/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="134" selection-start-line="12" selection-start-column="134" selection-end-line="12" selection-end-column="134" />
+        <state relative-caret-position="187">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
