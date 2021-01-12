@@ -7,12 +7,19 @@ from flask_bcrypt import Bcrypt
 from flask_mail import Mail
 from flask_moment import Moment
 
+"This is the .py file where the configurations have been defined"
+
+# New istance of Flask class, this is needed so that Flask knows where to look for templates, static files, and so on
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '3487430sd87dsds520852470534ds8cjdhfdjbsakhj3'
 
 Bootstrap(app)
+
+# Moment configuration
 moment = Moment(app)
 
+#Password encryption configuration
+bcrypt = Bcrypt(app)
 
 
 # DataBase configuration
@@ -23,20 +30,19 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 db = SQLAlchemy(app)
 
-bcrypt = Bcrypt(app)
-
+# Login configuration
 login_manager = LoginManager(app)
-login_manager.login_view = 'login'  # il login_required ti manda alla pagina del login
-login_manager.login_message_category = 'info'  # coloro di blu il messaggio in cui viene richiesto
-                                               # il login per poter accedere ad una pagina
+login_manager.login_view = 'login'
+login_manager.login_message_category = 'info'
+
 
 # Mail configuration
 mail_settings ={
 'MAIL_SERVER' : 'smtp.googlemail.com',
 'MAIL_PORT' : 587,
 'MAIL_USE_TLS' : True,
-'MAIL_USERNAME' : "foodsharingpoint@gmail.com",  # os.environ.get('EMAIL_USER')
-'MAIL_PASSWORD' : "Foodsharingpoint@2020"   #os.environ.get('EMAIL_PASS')
+'MAIL_USERNAME' : "foodsharingpoint@gmail.com",
+'MAIL_PASSWORD' : "Foodsharingpoint@2020"
 }
 app.config.update(mail_settings)
 mail = Mail(app)
